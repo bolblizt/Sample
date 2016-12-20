@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238A8DD21E077795006F6AC5 /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 238A8DD11E077795006F6AC5 /* DataHandler.m */; };
+		23A26B001E02354100A0D2EB /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A26AFF1E02354100A0D2EB /* FloatRatingView.swift */; };
+		23A26B021E02787600A0D2EB /* games.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 23A26B011E02787600A0D2EB /* games.sqlite3 */; };
+		23A26B051E02A54C00A0D2EB /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A26B041E02A54C00A0D2EB /* MainTableViewController.m */; };
+		23BCA8E21E079082006501BC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BCA8E11E079082006501BC /* libsqlite3.tbd */; };
+		CE2252CC1E0193C700497327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2252CB1E0193C700497327 /* main.m */; };
+		CE2252CF1E0193C700497327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2252CE1E0193C700497327 /* AppDelegate.m */; };
+		CE2252D51E0193C700497327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2252D31E0193C700497327 /* Main.storyboard */; };
+		CE2252D71E0193C700497327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2252D61E0193C700497327 /* Assets.xcassets */; };
+		CE2252DA1E0193C700497327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2252D81E0193C700497327 /* LaunchScreen.storyboard */; };
+		CE2252E51E0193C800497327 /* TravelAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2252E41E0193C800497327 /* TravelAssignmentTests.m */; };
+		CE2252F41E0196EA00497327 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2252F31E0196EA00497327 /* DataModel.m */; };
+		CE2B86A81E06BC93005E0C98 /* PlacesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2B86A71E06BC93005E0C98 /* PlacesTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2252E11E0193C800497327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2252BF1E0193C700497327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2252C61E0193C700497327;
+			remoteInfo = TravelAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238A8DD01E077795006F6AC5 /* DataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+		238A8DD11E077795006F6AC5 /* DataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
+		23A26AFF1E02354100A0D2EB /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		23A26B011E02787600A0D2EB /* games.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = games.sqlite3; sourceTree = "<group>"; };
+		23A26B031E02A54C00A0D2EB /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		23A26B041E02A54C00A0D2EB /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		23BCA8E11E079082006501BC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CE2252C71E0193C700497327 /* TravelAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2252CB1E0193C700497327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE2252CD1E0193C700497327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE2252CE1E0193C700497327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE2252D41E0193C700497327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2252D61E0193C700497327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2252D91E0193C700497327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2252DB1E0193C700497327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2252E01E0193C800497327 /* TravelAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2252E41E0193C800497327 /* TravelAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelAssignmentTests.m; sourceTree = "<group>"; };
+		CE2252E61E0193C800497327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2252EF1E01949D00497327 /* TravelAssignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE2252F21E0196EA00497327 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		CE2252F31E0196EA00497327 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		CE2B86A61E06BC93005E0C98 /* PlacesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewCell.h; sourceTree = "<group>"; };
+		CE2B86A71E06BC93005E0C98 /* PlacesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2252C41E0193C700497327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BCA8E21E079082006501BC /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2252DD1E0193C800497327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BCA8E01E079081006501BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23BCA8E11E079082006501BC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2252BE1E0193C700497327 = {
+			isa = PBXGroup;
+			children = (
+				CE2252C91E0193C700497327 /* TravelAssignment */,
+				CE2252E31E0193C800497327 /* TravelAssignmentTests */,
+				CE2252C81E0193C700497327 /* Products */,
+				23BCA8E01E079081006501BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2252C81E0193C700497327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2252C71E0193C700497327 /* TravelAssignment.app */,
+				CE2252E01E0193C800497327 /* TravelAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2252C91E0193C700497327 /* TravelAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				23A26B011E02787600A0D2EB /* games.sqlite3 */,
+				CE2252CD1E0193C700497327 /* AppDelegate.h */,
+				CE2252CE1E0193C700497327 /* AppDelegate.m */,
+				23A26B031E02A54C00A0D2EB /* MainTableViewController.h */,
+				23A26B041E02A54C00A0D2EB /* MainTableViewController.m */,
+				CE2B86A61E06BC93005E0C98 /* PlacesTableViewCell.h */,
+				CE2B86A71E06BC93005E0C98 /* PlacesTableViewCell.m */,
+				CE2252F51E0199C200497327 /* Model */,
+				CE2252D31E0193C700497327 /* Main.storyboard */,
+				CE2252D61E0193C700497327 /* Assets.xcassets */,
+				CE2252D81E0193C700497327 /* LaunchScreen.storyboard */,
+				CE2252DB1E0193C700497327 /* Info.plist */,
+				CE2252CA1E0193C700497327 /* Supporting Files */,
+				CE2252EF1E01949D00497327 /* TravelAssignment-Bridging-Header.h */,
+				23A26AFF1E02354100A0D2EB /* FloatRatingView.swift */,
+			);
+			path = TravelAssignment;
+			sourceTree = "<group>";
+		};
+		CE2252CA1E0193C700497327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2252CB1E0193C700497327 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE2252E31E0193C800497327 /* TravelAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2252E41E0193C800497327 /* TravelAssignmentTests.m */,
+				CE2252E61E0193C800497327 /* Info.plist */,
+			);
+			path = TravelAssignmentTests;
+			sourceTree = "<group>";
+		};
+		CE2252F51E0199C200497327 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE2252F21E0196EA00497327 /* DataModel.h */,
+				CE2252F31E0196EA00497327 /* DataModel.m */,
+				238A8DD01E077795006F6AC5 /* DataHandler.h */,
+				238A8DD11E077795006F6AC5 /* DataHandler.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2252C61E0193C700497327 /* TravelAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2252E91E0193C800497327 /* Build configuration list for PBXNativeTarget "TravelAssignment" */;
+			buildPhases = (
+				CE2252C31E0193C700497327 /* Sources */,
+				CE2252C41E0193C700497327 /* Frameworks */,
+				CE2252C51E0193C700497327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelAssignment;
+			productName = TravelAssignment;
+			productReference = CE2252C71E0193C700497327 /* TravelAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2252DF1E0193C800497327 /* TravelAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2252EC1E0193C800497327 /* Build configuration list for PBXNativeTarget "TravelAssignmentTests" */;
+			buildPhases = (
+				CE2252DC1E0193C800497327 /* Sources */,
+				CE2252DD1E0193C800497327 /* Frameworks */,
+				CE2252DE1E0193C800497327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2252E21E0193C800497327 /* PBXTargetDependency */,
+			);
+			name = TravelAssignmentTests;
+			productName = TravelAssignmentTests;
+			productReference = CE2252E01E0193C800497327 /* TravelAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2252BF1E0193C700497327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE2252C61E0193C700497327 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S934FFVU2E;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					CE2252DF1E0193C800497327 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE2252C61E0193C700497327;
+					};
+				};
+			};
+			buildConfigurationList = CE2252C21E0193C700497327 /* Build configuration list for PBXProject "TravelAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2252BE1E0193C700497327;
+			productRefGroup = CE2252C81E0193C700497327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2252C61E0193C700497327 /* TravelAssignment */,
+				CE2252DF1E0193C800497327 /* TravelAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2252C51E0193C700497327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2252DA1E0193C700497327 /* LaunchScreen.storyboard in Resources */,
+				23A26B021E02787600A0D2EB /* games.sqlite3 in Resources */,
+				CE2252D71E0193C700497327 /* Assets.xcassets in Resources */,
+				CE2252D51E0193C700497327 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2252DE1E0193C800497327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2252C31E0193C700497327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2252F41E0196EA00497327 /* DataModel.m in Sources */,
+				238A8DD21E077795006F6AC5 /* DataHandler.m in Sources */,
+				CE2B86A81E06BC93005E0C98 /* PlacesTableViewCell.m in Sources */,
+				CE2252CF1E0193C700497327 /* AppDelegate.m in Sources */,
+				23A26B001E02354100A0D2EB /* FloatRatingView.swift in Sources */,
+				23A26B051E02A54C00A0D2EB /* MainTableViewController.m in Sources */,
+				CE2252CC1E0193C700497327 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2252DC1E0193C800497327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2252E51E0193C800497327 /* TravelAssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2252E21E0193C800497327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2252C61E0193C700497327 /* TravelAssignment */;
+			targetProxy = CE2252E11E0193C800497327 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2252D31E0193C700497327 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2252D41E0193C700497327 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2252D81E0193C700497327 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2252D91E0193C700497327 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2252E71E0193C800497327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2252E81E0193C800497327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2252EA1E0193C800497327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S934FFVU2E;
+				INFOPLIST_FILE = TravelAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.TravelAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravelAssignment/TravelAssignment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE2252EB1E0193C800497327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = S934FFVU2E;
+				INFOPLIST_FILE = TravelAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.TravelAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravelAssignment/TravelAssignment-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE2252ED1E0193C800497327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.TravelAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelAssignment.app/TravelAssignment";
+			};
+			name = Debug;
+		};
+		CE2252EE1E0193C800497327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DR.TravelAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelAssignment.app/TravelAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2252C21E0193C700497327 /* Build configuration list for PBXProject "TravelAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2252E71E0193C800497327 /* Debug */,
+				CE2252E81E0193C800497327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2252E91E0193C800497327 /* Build configuration list for PBXNativeTarget "TravelAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2252EA1E0193C800497327 /* Debug */,
+				CE2252EB1E0193C800497327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2252EC1E0193C800497327 /* Build configuration list for PBXNativeTarget "TravelAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2252ED1E0193C800497327 /* Debug */,
+				CE2252EE1E0193C800497327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2252BF1E0193C700497327 /* Project object */;
+}
